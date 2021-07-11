@@ -1,0 +1,73 @@
+{
+  "columns": [
+    {
+      "header": "",
+      "value": ""
+    },
+    {
+      "header": "",
+      "value": ""
+    },
+    {
+      "header": "",
+      "value": ""
+    },
+        {
+      "header": "дата протокола",
+      "value": "{date_of_protokol}",
+      "validation": "^(?!\\s*$).+"
+    },
+    {
+      "header": "дата рассмотрения",
+      "value": "{date_of_rassm}"
+    },
+    {
+      "header": "№ дела об АП",
+      "value": "10418000-{number_case}/2020"
+    },
+    {
+      "header": "КоАП РФ",
+      "value": "{case_code_art} ч.{case_code_part}"
+    },
+    {
+      "header": "юридическое лицо",
+      "value": "{company_name}"
+    },
+    {
+      "header": "дата возбуждения",
+      "value": "{case_date_init}"
+    },
+    {
+      "header": "юридический адрес",
+      "value": "{index}, {state}, {city}, {street}"
+    },
+    {
+      "header": "ИНН",
+      "value": "{inn}"
+    },
+    {
+      "header": "КПП",
+      "value": "{kpp}"
+    },
+    {
+      "header": "ОГРН",
+      "value": "{ogrn}"
+    },
+    {
+      "header": "законный представитель",
+      "value": "{representative_position}, {representative_name}"
+    },
+    {
+      "header": "эл.почта",
+      "value": "{email}"
+    },
+    {
+      "header": "№ ДТ",
+      "value": "{number_dt}"
+    },
+    {
+      "header": "",
+      "value": ""
+    }
+  ]
+}
